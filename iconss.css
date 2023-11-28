@@ -1,0 +1,246 @@
+body{
+    background-color:black;
+}
+.smn{
+
+    position: relative;
+    left: 37%;
+    color: azure;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.fab{
+    height: 50px;
+
+}
+.fa-instagram{
+    color: #e1306c;
+}
+.fa-twitter{
+   color: #1DA1F2;
+}
+.fa-github{
+    color: #333;
+}
+.fa-linkedin{
+    color:#0A66C2;
+
+}
+.fa-whatsapp{
+    color:#075E54;
+}
+i{
+    width: 70%;
+    height: 70%;
+}
+.navigation{
+    background-color:black;
+    height: 20vh;
+    width: 100%;
+}
+.dp{
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    padding-left: 5px;
+    display: inline-block;
+    
+}
+h3{
+    color: azure;
+    margin: 0;
+}
+h2{
+    color:azure;
+
+}
+span{
+    color: red;
+}
+.nav-list{
+    color: azure;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    justify-content: flex-end;
+    position:relative;
+    
+}
+.nav li{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color: azure;
+}
+.left{
+    float: left;
+}
+.right{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.nav{
+    position: relative;
+    right: 20px;
+    top: 30px;
+}
+.about{
+    width: 40%;
+    color: azure;
+    float: left;
+    font-size: 20px;
+}
+.abtimg{
+    float: right;
+    width: 40%;
+
+
+}
+.discrip{
+    padding: 20px;
+}
+.h1about{
+    padding-left: 20px;
+    color: azure;
+}
+#pic{
+    width: 90%;
+    position: relative;
+    top: 150px;
+
+}
+.both{
+    clear: both;
+}
+.bars{
+    width: auto;
+    height: 20px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+h4{
+    color: azure;
+    font-family: serif;
+    padding-left: 20px;
+}
+.skill{
+    height:20px;
+    background-color: grey;
+}
+.html{
+    width: 90%;
+}
+.CSS{
+    width: 70%;
+
+}
+.javascript{
+    width: 60%;
+}
+.designing{
+    width: 90%;
+}
+.communication{
+    width: 98%;
+}
+.solving{
+    width: 95%;
+}
+.h3quote{
+    color: orange;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.name{
+    color: aliceblue;
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+}
+.quote-left{
+    width: 40%;
+    float: left;
+}
+.quote-right{
+    width: 40%;
+    float: right;
+}
+.vincipic{
+    width: 70%;
+}
+.margin{
+    margin: 20px ;
+    clear: both;
+}
+footer>p{
+    color: white;
+    font-size: 20px;
+}
+@media(min-width:210px) and (max-width:400px){
+  .smn{
+    font-size: 20px;
+    position: relative;
+    left:90px;
+
+  } 
+  .icons{
+    gap: 20px;
+  }
+  .dp{
+    width: 60px;
+    height: 70px;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .nav-list{
+    color: azure;
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    justify-content: flex-end;
+    position:relative;
+    top: 40px;
+    
+}
+.about{
+    width: 100%;
+    color: azure;
+    float: left;
+    font-size: 10px;
+}
+.abtimg{
+
+    width: 30%;
+    position: relative;
+    right: 110px;
+    bottom: 150px;
+
+
+}
+.quote-left{
+    width: 100%;
+}
+   .name{
+    color: aliceblue;
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+    font-size: 10px;
+     }
+    .vincipic{
+        width: 50%;
+        position: relative;
+        right: 
+    }
+    footer>p{
+        color: white;
+        font-size: 10px;
+    }
+
+}
